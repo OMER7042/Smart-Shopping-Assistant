@@ -28,6 +28,6 @@
     width: 100%;
     margin-top: 2px !important;
 }
-.card {
-    margin-bottom: 50px; /* Adjust the margin as needed */
+#selectedProductsSection .card {
+    margin: 1em;
 }
