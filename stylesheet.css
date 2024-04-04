@@ -1,0 +1,33 @@
+.header {
+    width:100%;
+    padding:10;
+    background-color: #7dbad6;
+    border: none;
+}
+.title {
+    color:whitesmoke
+}
+.scc {
+     margin-top:10;
+     display: flex;
+     justify-content: space-evenly;
+
+}
+.dsc-ca {
+    padding:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+.button {
+    width: 50%;
+}
+.hr-line {
+    border: 1px solid black !important;
+    width: 100%;
+    margin-top: 2px !important;
+}
+.card {
+    margin-bottom: 50px; /* Adjust the margin as needed */
+}
