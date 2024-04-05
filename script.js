@@ -5,6 +5,9 @@ document.addEventListener("DOMContentLoaded", function () {
     addShoppingPanel();
     addVendorPanel();
     addProductPanel();
+    addNewVendor();
+    addNewProduct();
+    addSelectedProducts();
 });
 
 // function addShoppingPanel() {
