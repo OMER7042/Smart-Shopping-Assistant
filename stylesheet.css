@@ -7,6 +7,13 @@
 .title {
     color:whitesmoke
 }
+
+.dsc-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:1em;
+}
 .scc {
      margin-top:10;
      display: flex;
@@ -30,4 +37,21 @@
 }
 #selectedProductsSection .card {
     margin: 1em;
+    padding: 1em;
+    border: 1px solid rgb(0, 0, 0);
+    width: 200px;;
+    transition: box-shadow 0.3s ease; /* Add a smooth transition effect */
+}
+#productListing {
+    list-style: none; /* Remove default list style */
+    padding:0;
+}
+#selectedProductsContainer {
+    display: flex;
+    flex-wrap: wrap; /* Allow cards to wrap to the next line */
+    justify-content: center; /* Align cards horizontally in the center */
+    align-items: center; /* Align cards vertically in the center */
+}
+#selectedProductsSection .card:hover {
+    box-shadow: 0 0 16px rgb(0, 213, 255); /* Add a box-shadow effect on hover */
 }
